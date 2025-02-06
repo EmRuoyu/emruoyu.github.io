@@ -1,1 +1,1 @@
-This is a personal website for Ruoyu(Em) Zhang
+This is a personal website for Emma/Ruoyu Zhang
