@@ -81,7 +81,7 @@ div.background{
 }
 
 .sidenav a {
-  padding: 12px 2px 20px 1px;
+  padding: 6px 2px 20px 1px;
   text-decoration: none;
   font-size: 1.2vw;
   font-family:Georgia;
@@ -141,6 +141,11 @@ img {
   max-width: 80%;
   height: auto;
   margin-left:6%;
+}
+#poster2{
+  max-width: 54%;
+  height: auto;
+  margin-left:20%;
 }
 figcaption {
   color: rgb(0, 0, 0);
