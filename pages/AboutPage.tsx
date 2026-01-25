@@ -1,5 +1,6 @@
 import React from 'react';
 import { experienceData, educationData, contactLinks } from '../constants';
+import meImage from '../images/me.png';
 
 const AboutPage: React.FC = () => {
   return (
@@ -24,7 +25,7 @@ const AboutPage: React.FC = () => {
         </div>
         <div className="flex-shrink-0 md:w-1/3 mt-6 md:mt-0">
           <img 
-            src="https://i.imgur.com/G4wwjY4.png"
+            src={meImage}
             alt="Ruoyu Zhang"
             className="rounded-2xl w-full h-auto object-cover max-w-sm mx-auto"
           />

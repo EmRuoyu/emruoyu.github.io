@@ -3,6 +3,7 @@ import { Project } from '../types';
 
 interface ProjectCardProps {
   project: Project;
+  onClick?: () => void;
 }
 
 const PlayIcon: React.FC = () => (
@@ -14,9 +15,12 @@ const PlayIcon: React.FC = () => (
 );
 
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ project, onClick }) => {
   return (
-    <div className="group">
+    <div 
+      className={`group ${onClick ? 'cursor-pointer' : ''}`}
+      onClick={onClick}
+    >
       <div className="relative overflow-hidden rounded-2xl mb-4 bg-gray-100 aspect-[4/3]">
         <img 
           src={project.imageUrl} 

@@ -2,6 +2,7 @@ export enum Page {
   Works = 'Works',
   Design = 'Design',
   About = 'About',
+  WorkDetail = 'WorkDetail',
 }
 
 export interface Project {
